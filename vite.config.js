@@ -8,7 +8,7 @@ export default defineConfig({
     exclude: ['react-router-dom']},
     build: {
       rollupOptions: {
-        external: ["@emailjs/browser"],
+        external: ["/Users/brianhill/node_modules/@emailjs/browser/es/index"],
       },
     }
 })
